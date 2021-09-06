@@ -77,3 +77,9 @@ _At the moment I am a member of the development team of one startup. Team compos
 - _ReactJS - Way of the Samurai_
 - _CS50_
 - _and other lectures and mini-courses on YouTube_
+
+## Languages:
+
+- _Belarusian_ (native)
+- _Russian_ (native)
+- _Englisch_ (A2 in process…)
