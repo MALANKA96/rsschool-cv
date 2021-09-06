@@ -61,3 +61,19 @@ const bubble_sort = (array) => {
 ## Work experience:
 
 _At the moment I am a member of the development team of one startup. Team composition: one backend developer, two frontend developers and one designer._
+
+## Education:
+
+1. **Luninets Lyceum**
+
+- _Physics and Mathematics Faculty_
+
+2. **Belarusian National Technical University**
+
+- _Transport Communications Faculty / Highway Engineering_
+
+3. **Online courses and lectures:**
+
+- _ReactJS - Way of the Samurai_
+- _CS50_
+- _and other lectures and mini-courses on YouTube_
