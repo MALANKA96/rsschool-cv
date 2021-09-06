@@ -39,3 +39,21 @@ I have a huge motivation to become a cool IT specialist. I started learning on m
 - _npm / yarn_
 - _Expo_
 - _Figma_
+
+## Code examples:
+
+```
+const bubble_sort = (array) => {
+  let a = array.length;
+  for (let i = 0; i < a-1; i++) {
+      for (let j = 0; j < a-i-1; j++) {
+          if (array[j+1] < array[j]) {
+              let b = array[j+1];
+              array[j+1] = array[j];
+              array[j] = b;
+          }
+      }
+  }
+  return array;
+}
+```
