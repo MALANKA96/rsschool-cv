@@ -57,3 +57,7 @@ const bubble_sort = (array) => {
   return array;
 }
 ```
+
+## Work experience:
+
+_At the moment I am a member of the development team of one startup. Team composition: one backend developer, two frontend developers and one designer._
