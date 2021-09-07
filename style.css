@@ -48,7 +48,7 @@ body {
   font-weight: 400;
   margin-bottom: 0;
 }
-.header__text h4 {
+.header__text p {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   margin-top: 5px;
@@ -58,6 +58,15 @@ body {
   font-style: italic;
   margin-top: 5px;
 }
+.header__text h3 a {
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 5px;
+  text-decoration: none;
+}
+.header__text h3 a:hover {
+  color: #ff000091;
+}
 
 .main {
   display: flex;
@@ -65,5 +74,89 @@ body {
 
 .main__left-column {
   width: 35%;
-  background-color: rgba(191, 242, 173, 0.755);
+  /*  background-color: rgba(191, 242, 173, 0.755); */
 }
+.main__left-column__contacts {
+  /* background-color: rgba(22, 80, 0, 0.755); */
+  margin-top: 55px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.main__left-column__contacts__location h3 {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.main__left-column__contacts__location p {
+  margin-top: 5px;
+  font-weight: 400;
+}
+.main__left-column__contacts__phone h3 {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.main__left-column__contacts__phone p {
+  margin-top: 5px;
+  font-weight: 400;
+}
+.main__left-column__contacts__email h3 {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.main__left-column__contacts__email p {
+  margin-top: 5px;
+  font-weight: 400;
+}
+.main__left-column__contacts__email p a {
+  text-decoration: none;
+  color: black;
+}
+.main__left-column__contacts__email p a:hover {
+  color: rgba(89, 136, 72, 0.755);
+}
+.main__left-column__contacts__github h3 {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.main__left-column__contacts__github p {
+  margin-top: 5px;
+  font-weight: 400;
+}
+.main__left-column__contacts__github p a {
+  text-decoration: none;
+  color: black;
+}
+.main__left-column__contacts__github p a:hover {
+  color: rgba(89, 136, 72, 0.755);
+}
+
+.main__rigth-column {
+  width: 65%;
+}
+
+.main__rigth-column__education {
+  /* background-color: rgba(22, 80, 0, 0.755); */
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.main__rigth-column__education__text  {
+  margin-left: 55px;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.main__rigth-column__education__li {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  list-style-type: '— ' ; 
+}
+.main__rigth-column__education__li ul {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  list-style-type: '- ' ; 
+  font-style: italic;
+}
+
