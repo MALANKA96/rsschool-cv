@@ -130,12 +130,33 @@ body {
   color: rgba(89, 136, 72, 0.755);
 }
 
+.main__left-column__languages {
+
+  margin-top: 55px;
+  margin-left: 25px;
+}
+.main__left-column__languages h1 {
+  font-size: 32px;
+  text-align: center;
+}
+.main__left-column__languages li {
+  font-size: 18px;
+  margin-left: 55px;
+  margin-bottom: 10px;
+  list-style-type: '- ' ;
+  
+}
+
+
+
+
 .main__rigth-column {
   width: 65%;
 }
 
 .main__rigth-column__education {
   /* background-color: rgba(22, 80, 0, 0.755); */
+  
   margin-top: 25px;
   margin-left: 25px;
 }
@@ -149,13 +170,14 @@ body {
 .main__rigth-column__education__li {
   font-size: 18px;
   font-weight: 500;
-  margin: 0;
+  margin-top: 10px;
   list-style-type: '— ' ; 
 }
 .main__rigth-column__education__li ul {
   font-size: 18px;
   font-weight: 400;
-  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
   list-style-type: '- ' ; 
   font-style: italic;
 }
