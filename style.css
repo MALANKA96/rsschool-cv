@@ -1,0 +1,11 @@
+* {
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgba(137, 43, 226, 0.85);
+}
+
+.root_container {
+  margin-top: 15px;
+  background-color: rgba(127, 255, 212, 0.796);
+  width: 1024px;
+}
