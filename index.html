@@ -30,9 +30,10 @@
           <h3>
             I have a huge motivation to become a cool IT specialist. I started
             learning on my own - from the resource
-            <a href="https://learn.javascript.ru/">learn.javascript.ru</a>. In
-            my free time, I read various literature, play football, do crossfit
-            and generally do sports since childhood.
+            <a href="https://learn.javascript.ru/" target="_blank"
+              >learn.javascript.ru</a
+            >. In my free time, I read various literature, play football, do
+            crossfit and generally do sports since childhood.
           </h3>
         </div>
       </header>
@@ -50,7 +51,7 @@
             <div class="main__left-column__contacts__email">
               <h3>E-mail</h3>
               <p>
-                <a href="https://voksa.kolya@gmail.com">
+                <a href="https://voksa.kolya@gmail.com" target="_blank">
                   voksa.kolya@gmail.com
                 </a>
               </p>
@@ -58,24 +59,24 @@
             <div class="main__left-column__contacts__github">
               <h3>GitHub</h3>
               <p>
-                <a href="https://github.com/MALANKA96">MALANKA96</a>
+                <a href="https://github.com/MALANKA96" target="_blank"
+                  >MALANKA96</a
+                >
               </p>
             </div>
           </div>
 
           <div class="main__left-column__skills">
-            <h1 class="main__left-column__skills__text">
-              Skills
-            </h1>
+            <h1 class="main__left-column__skills__text">Skills</h1>
             <ul>
               <li>HTML5 / CSS3</li>
-              <li>BEM methodology / Preprocessor SASS</li>
-              <li>Material-UI / Bootstrap</li>
-              <li>JavaScript(ES6+) / TypeScript / JSON</li>
+              <!--  <li>BEM methodology / Preprocessor SASS</li>
+              <li>Material-UI / Bootstrap</li> -->
+              <li>JavaScript(ES6+) / TypeScript</li>
               <li>React / React Native</li>
-              <li>Redux / React-Redux / Redux-Saga</li>
+              <li>Redux / React-Redux</li>
               <li>Node.js<i>(basic)</i></li>
-              <li>npm / yarn</li>
+              <!-- <li>npm / yarn</li> -->
               <li>Git / GitHub</li>
               <li>Expo</li>
               <li>Figma</li>
@@ -119,9 +120,42 @@
               developers and one designer.
             </div>
           </div>
+
+          <div class="main__rigth-column__code">
+            <h1 class="main__rigth-column__code__text">Code examples</h1>
+            <pre>
+              <code>
+  const bubble_sort = (array) => {
+    let a = array.length;
+      for (let i = 0; i < a-1; i++) {
+        for (let j = 0; j < a-i-1; j++) {
+          if (array[j+1] < array[j]) {
+            let b = array[j+1];
+            array[j+1] = array[j];
+            array[j] = b;
+          }
+        }
+      }
+    return array;
+  }
+              </code>
+            </pre>
+          </div>
         </section>
       </main>
-    <footer class="footer" >145</footer>
+      <footer class="footer">
+        <div>
+          <a href="https://github.com/MALANKA96" target="_blank"
+            ><img src="./assetc/logo/github-2.svg" alt="githubLogo"
+          /></a>
+        </div>
+        <div class="footer__text">Created in 2021</div>
+        <div>
+          <a href="https://rs.school/js/" target="_blank">
+            <img src="./assetc/logo/rs_school_js.svg" alt="rsLogo" />
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
