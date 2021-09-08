@@ -13,7 +13,7 @@ body {
   /* background-color: rgba(89, 136, 72, 0.755); */
   background-color: rgba(255, 255, 255, 0.755);
   width: 1024px;
-  height: 1000px;
+  /* height: 1000px; */
 }
 
 .header {
@@ -131,13 +131,13 @@ body {
 }
 
 .main__left-column__languages {
-
   margin-top: 55px;
   margin-left: 25px;
 }
 .main__left-column__languages h1 {
   font-size: 32px;
   text-align: center;
+  font-weight: 500;
 }
 .main__left-column__languages li {
   font-size: 18px;
@@ -182,3 +182,40 @@ body {
   font-style: italic;
 }
 
+.main__rigth-column__skills {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.main__rigth-column__skills__text {
+  margin-left: 55px;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.main__rigth-column__skills li {
+  font-size: 18px;
+  font-weight: 500;
+  list-style-type: '— ' ;
+}
+
+.main__rigth-column__work {
+ /*  margin-top: 25px; */
+  margin: 25px;
+
+}
+
+.main__rigth-column__work__text {
+  margin-left: 55px;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.main__rigth-column__work__text-1 {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+margin-bottom: 300px;
+}
