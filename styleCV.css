@@ -45,7 +45,7 @@ body {
 
 .main {
   display: flex;
-  margin-top: 50px;
+  padding-top: 100px;
 }
 .main__ava {
   margin-top: 5px;
@@ -97,7 +97,85 @@ body {
   color: #ff000091;
 }
 
+.contacts {
+  background-color: rgba(89, 136, 72, 0.755);
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: baseline;
+}
 
+.skills {
+  background-color: rgba(136, 132, 72, 0.755);
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.languages {
+  background-color: rgba(136, 94, 72, 0.755);
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.education {
+  background-color: rgba(89, 72, 136, 0.755);
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.work {
+  background-color: rgba(72, 136, 127, 0.755);
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+
+.code {
+
+  background-color: rgba(136, 132, 72, 0.755);
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: baseline;
+}
 
 
 .footer {

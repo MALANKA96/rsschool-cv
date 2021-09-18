@@ -16,24 +16,22 @@
   <body>
     <div class="container">
       <header class="header">
-        <nav><ul class="nav_ul">
-          <li class="nav_ul_li" ><a href="#general">General</a></li>
-          <li class="nav_ul_li" ><a href="#contacts">Contacts</a></li>
-          <li class="nav_ul_li" ><a href="#skills">Skills</a></li>
-          <li class="nav_ul_li" ><a href="#languages">Languages</a></li>
-          <li class="nav_ul_li" ><a href="#education">Education</a></li>
-          <li class="nav_ul_li" ><a href="#work">Work experience</a></li>
-          <li class="nav_ul_li" ><a href="#code">Code examples</a></li>
-        </ul></nav>
+        <nav>
+          <ul class="nav_ul">
+            <li class="nav_ul_li"><a href="#general">General</a></li>
+            <li class="nav_ul_li"><a href="#contacts">Contacts</a></li>
+            <li class="nav_ul_li"><a href="#skills">Skills</a></li>
+            <li class="nav_ul_li"><a href="#languages">Languages</a></li>
+            <li class="nav_ul_li"><a href="#education">Education</a></li>
+            <li class="nav_ul_li"><a href="#work">Work experience</a></li>
+            <li class="nav_ul_li"><a href="#code">Code examples</a></li>
+          </ul>
+        </nav>
       </header>
       <main class="main">
         <a name="general"></a>
         <div class="main__ava">
-          <img
-            class="main__ava__img"
-            src="./assetc/ava/ava.jpg"
-            alt="ava cv"
-          />
+          <img class="main__ava__img" src="./assetc/ava/ava.jpg" alt="ava cv" />
         </div>
         <div class="main__text">
           <h1 class="main__text__name">Mikalai Voksa</h1>
@@ -48,14 +46,107 @@
             crossfit and generally do sports since childhood.
           </h3>
         </div>
-
       </main>
-        <section> 
-          <a name="contacts"><h2>Contacts</h2></a>
+      <section class="contacts">
+        <a name="contacts"><h2>My contacts:</h2></a>
 
-        </section>
-       
-      
+        <div class="contacts__location">
+          <h3>Location</h3>
+          <p>Europe / Minsk</p>
+        </div>
+        <div class="contacts__phone">
+          <h3>Phone</h3>
+          <p>+375 (29) 122-94-05</p>
+        </div>
+        <div class="contacts__email">
+          <h3>E-mail</h3>
+          <p>
+            <a href="https://voksa.kolya@gmail.com" target="_blank">
+              voksa.kolya@gmail.com
+            </a>
+          </p>
+        </div>
+        <div class="contacts__github">
+          <h3>GitHub</h3>
+          <p>
+            <a href="https://github.com/MALANKA96" target="_blank">MALANKA96</a>
+          </p>
+        </div>
+      </section>
+      <section class="skills">
+        <a name="skills"><h2>My skills:</h2></a>
+        <ul>
+          <li>HTML5 / CSS3</li>
+          <li>JavaScript(ES6+) / TypeScript</li>
+          <li>React / React Native</li>
+          <li>Redux / React-Redux</li>
+          <li>Node.js<i>(basic)</i></li>
+          <li>Git / GitHub</li>
+          <li>Expo</li>
+          <li>Figma</li>
+          <li>Window OS / Linux<i>(basic)</i></li>
+        </ul>
+      </section>
+
+      <section class="languages">
+        <a name="languages"><h2>Languages:</h2></a>
+        <ul>
+          <li>Belarusian <i>(native)</i></li>
+          <li>Russian <i>(native)</i></li>
+          <li>Englisch <i>(A2 in process…)</i></li>
+        </ul>
+      </section>
+
+      <section class="education">
+        <a name="education"><h2>Education:</h2></a>
+        <ul class="education__li">
+          <li>Luninets Lyceum</li>
+          <ul>
+            <li>Physics and Mathematics Faculty</li>
+          </ul>
+          <li>Belarusian National Technical University</li>
+          <ul>
+            <li>Transport Communications Faculty / Highway Engineering</li>
+          </ul>
+          <li>Online courses and lectures:</li>
+          <ul>
+            <li>CS50</li>
+            <li>ReactJS - Way of the Samurai</li>
+            <li>and other lectures and mini-courses on YouTub</li>
+          </ul>
+        </ul>
+      </section>
+
+      <section class="work">
+        <a name="work"><h2>Work experience:</h2></a>
+        <span class="work__text">
+          At the moment I am a member of the development team of one startup.
+          Team composition: one backend developer, two frontend developers and
+          one designer.
+        </span>
+      </section>
+
+      <section class="code">
+        <a name="code"><h2>Code:</h2></a>
+        <pre>
+          <code>
+const bubble_sort = (array) => {
+let a = array.length;
+  for (let i = 0; i < a-1; i++) {
+    for (let j = 0; j < a-i-1; j++) {
+      if (array[j+1] < array[j]) {
+        let b = array[j+1];
+        array[j+1] = array[j];
+        array[j] = b;
+      }
+    }
+  }
+return array;
+}
+          </code>
+        </pre>
+      </section>
+
       <footer class="footer">
         <div>
           <a href="https://github.com/MALANKA96" target="_blank"
