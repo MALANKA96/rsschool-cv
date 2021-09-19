@@ -12,6 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark-reasonable.min.css"
+    /><link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/javascript.min.js"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </head>
   <body>
     <div class="container">
@@ -168,10 +179,9 @@
             style="
               background-color: rgba(211, 211, 211, 0.412);
               border-radius: 5px;
-              padding: 5px;
             "
           >
-          <code style="font-size:20px; font-weight: 600; ">
+          <code style="font-size: 20px; font-weight: 600;" class="js">
 const bubble_sort = (array) => {
  let a = array.length;
   for (let i = 0; i < a-1; i++) {
@@ -204,6 +214,6 @@ const bubble_sort = (array) => {
         </div>
       </footer>
     </div>
-    <script src="./script.js" > </script>
+    <script src="./script.js"></script>
   </body>
 </html>
