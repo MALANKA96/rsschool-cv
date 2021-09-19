@@ -8,7 +8,7 @@ body {
 .container {
   margin: 0 auto;
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.755);
+  background-color: rgba(255, 255, 255, 0.823);
   width: 1024px;
   overflow: hidden;
 }
@@ -18,7 +18,7 @@ body {
   width: 1024px;
   height: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: rgba(89, 136, 72, 0.474);
+  background-color: rgb(59, 123, 69);
   align-items: center;
 }
 .nav_ul {
@@ -32,21 +32,54 @@ body {
   list-style-type: none;
 }
 .nav_ul_li a {
-  color: rgb(36, 36, 36);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
 }
 .nav_ul_li a:hover {
-  color: rgb(172, 35, 35);
+  color: rgba(160, 24, 24, 0.672);
   font-size: 18px;
   text-decoration: 1px solid;
 }
 
+.main_anchor {
+  margin-bottom: 50px;
+  visibility: hidden;
+}
+.contacts_anchor {
+  margin-bottom: 50px;
+  visibility: hidden;
+}
+.skills_anchor {
+  margin-bottom: 50px;
+  visibility: hidden;
+}
+.languages_anchor {
+  margin-bottom: 50px;
+  visibility: hidden;
+}
+.education_anchor {
+  margin-bottom: 50px;
+  visibility: hidden;
+}
+.work_anchor {
+  margin-bottom: 50px;
+  visibility: hidden;
+}
+.code_anchor {
+  margin-bottom: 50px;
+  visibility: hidden;
+}
+.footer_anchor {
+  margin-bottom: 50px;
+  visibility: hidden;
+}
+
 .main {
   display: flex;
-  padding-top: 100px;
 }
+
 .main__ava {
   margin-top: 5px;
 }
@@ -72,7 +105,6 @@ body {
   animation: slideRigth 1.2s forwards;
   transform: translateX(150%);
 }
-
 .main__text h2 {
   font-weight: 400;
   margin-bottom: 0;
@@ -97,92 +129,128 @@ body {
   color: #ff000091;
 }
 
-.contacts {
-  background-color: rgba(89, 136, 72, 0.755);
-  padding: 15px;
-  border-radius: 4px;
+.info {
   display: flex;
-  margin-top: 70px;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: space-around;
   justify-content: space-around;
   align-items: baseline;
+}
+.info p {
+  font-size: 20px;
+}
+.contacts {
+  background: linear-gradient(
+    to right,
+    rgba(147, 201, 22, 0.802),
+    rgb(59, 123, 69)
+  );
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 70px;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.contacts h3{
+  display: flex;
+  justify-content: center;
+
+}
+.contacts p{
+  font-size: 20px;
+}
+
+.contacts p a {
+  text-decoration: none;
+  color: black;
+}
+.contacts p a:hover {
+  text-decoration: none;
+  color: rgba(160, 24, 24, 0.672);
 }
 
 .skills {
-  background-color: rgba(136, 132, 72, 0.755);
+  background: linear-gradient(
+    to right,
+    rgba(147, 201, 22, 0.802),
+    rgb(59, 123, 69)
+  );
   padding: 15px;
   border-radius: 4px;
-  display: flex;
   margin-top: 70px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: space-around;
-  justify-content: space-around;
-  align-items: baseline;
+}
+
+.skills p {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.skills p:hover {
+  color: rgba(160, 24, 24, 0.672);
+  cursor: default;
 }
 
 .languages {
-  background-color: rgba(136, 94, 72, 0.755);
+  background: linear-gradient(
+    to right,
+    rgba(147, 201, 22, 0.802),
+    rgb(59, 123, 69)
+  );
   padding: 15px;
   border-radius: 4px;
-  display: flex;
   margin-top: 70px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: space-around;
-  justify-content: space-around;
-  align-items: baseline;
 }
 
 .education {
-  background-color: rgba(89, 72, 136, 0.755);
+  background: linear-gradient(
+    to right,
+    rgba(147, 201, 22, 0.802),
+    rgb(59, 123, 69)
+  );
   padding: 15px;
   border-radius: 4px;
-  display: flex;
   margin-top: 70px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: space-around;
-  justify-content: space-around;
-  align-items: baseline;
+}
+
+.education p {
+  font-weight: 600;
 }
 
 .work {
-  background-color: rgba(72, 136, 127, 0.755);
+  background: linear-gradient(
+    to right,
+    rgba(147, 201, 22, 0.802),
+    rgb(59, 123, 69)
+  );
   padding: 15px;
   border-radius: 4px;
-  display: flex;
   margin-top: 70px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: space-around;
-  justify-content: space-around;
-  align-items: baseline;
 }
-
 
 .code {
-
-  background-color: rgba(136, 132, 72, 0.755);
+  background: linear-gradient(
+    to right,
+    rgba(147, 201, 22, 0.802),
+    rgb(59, 123, 69)
+  );
   padding: 15px;
   border-radius: 4px;
-  display: flex;
   margin-top: 70px;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-content: space-around;
-  justify-content: space-around;
-  align-items: baseline;
 }
-
 
 .footer {
   width: 100%;
   height: 100px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: rgba(89, 136, 72, 0.755);
+  background-color: rgb(59, 123, 69);
   display: flex;
   flex-wrap: nowrap;
   align-content: center;
