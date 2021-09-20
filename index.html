@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cv</title>
     <link href="./styleCV.css" rel="stylesheet" />
+    <link href="./styleMenuBurger.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,28 +16,32 @@
     <link
       rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/atom-one-dark-reasonable.min.css"
-    /><link
-      rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/javascript.min.js"
     />
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
     <script>
-      hljs.initHighlightingOnLoad();
+      hljs.highlightAll();
     </script>
   </head>
   <body>
     <div class="container">
       <header class="header">
         <nav>
-          <ul class="nav_ul">
-            <li class="nav_ul_li"><a href="#general">General</a></li>
-            <li class="nav_ul_li"><a href="#contacts">Contacts</a></li>
-            <li class="nav_ul_li"><a href="#skills">Skills</a></li>
-            <li class="nav_ul_li"><a href="#languages">Languages</a></li>
-            <li class="nav_ul_li"><a href="#education">Education</a></li>
-            <li class="nav_ul_li"><a href="#work">Work experience</a></li>
-            <li class="nav_ul_li"><a href="#code">Code examples</a></li>
-          </ul>
+          <div class="burger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+              <div class="menu-text">Menu</div>
+              <span></span>
+            </label>
+            <ul class="menubox">
+              <li><a class="menu-item" href="#general">General</a></li>
+              <li><a class="menu-item" href="#contacts">Contacts</a></li>
+              <li><a class="menu-item" href="#skills">Skills</a></li>
+              <li><a class="menu-item" href="#languages">Languages</a></li>
+              <li><a class="menu-item" href="#education">Education</a></li>
+              <li><a class="menu-item" href="#work">Work experience</a></li>
+              <li><a class="menu-item" href="#code">Code examples</a></li>
+            </ul>
+          </div>
         </nav>
       </header>
       <div id="general" class="main_anchor">1</div>
@@ -181,7 +186,7 @@
               border-radius: 5px;
             "
           >
-          <code style="font-size: 20px; font-weight: 600;" class="js">
+          <code  class="js">
 const bubble_sort = (array) => {
  let a = array.length;
   for (let i = 0; i < a-1; i++) {
